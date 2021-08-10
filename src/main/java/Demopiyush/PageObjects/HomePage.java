@@ -25,6 +25,7 @@ public class HomePage {
     {
 
         driver.get("https://www.steelcase.com/");
+
     }
 
     public NavigationBar getNavigationBar()
@@ -56,9 +57,6 @@ public class HomePage {
         System.out.println("Hello");
         return driver.getTitle();
     }
-
-
-
 
 
 }

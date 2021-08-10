@@ -1,6 +1,4 @@
 package Demopiyush;
-
-
 import org.openqa.selenium.WebDriver;
 import Demopiyush.PageObjects.HomePage;
 import org.testng.annotations.AfterTest;
@@ -56,10 +54,6 @@ WebDriver driver;
                         { l.get(0)},  { l.get(1)}
                 };
     }
-
-
-
-
 
 
 }

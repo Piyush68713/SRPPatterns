@@ -2,7 +2,7 @@ package Demopiyush;
 
 
 import org.openqa.selenium.WebDriver;
-import Demopiyush.PageObjects.TravelHomePage;
+import Demopiyush.PageObjects.HomePage;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -14,13 +14,13 @@ import java.util.List;
 
 public class DemoTest extends BaseTest{
 WebDriver driver;
-    TravelHomePage travelHomePage;
+    HomePage travelHomePage;
 
     @BeforeTest
     public void setup()
     {
         driver =initializeDriver();
-        travelHomePage = new TravelHomePage(driver);
+        travelHomePage = new HomePage(driver);
     }
 
 
@@ -30,19 +30,20 @@ WebDriver driver;
     {
 
         travelHomePage.goTo();
+        System.out.println(travelHomePage.getTitle());
         //System.out.println(travelHomePage.getFooterNav().getFlightAttribute());
         //System.out.println(travelHomePage.getNavigationBar().getFlightAttribute());
         //System.out.println(travelHomePage.getFooterNav().getLinkCount());
         //System.out.println(travelHomePage.getNavigationBar().getLinkCount());
-        travelHomePage.setBookingStrategy("multitrip");
+        //travelHomePage.setBookingStrategy("multitrip");
 
-        travelHomePage.checkAvail(reservationDetails);
+       // travelHomePage.checkAvail(reservationDetails);
     }
 
     @AfterTest
     public void tearDown()
     {
-        //driver.quit();
+        driver.quit();
     }
 
     @DataProvider

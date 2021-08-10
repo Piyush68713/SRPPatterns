@@ -9,13 +9,13 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.HashMap;
 
-public class TravelHomePage {
+public class HomePage {
     By sectionElement = By.id("traveller-home");
     By footerNavSectionElement = By.id("buttons");
     WebDriver driver;
     SearchFlightAvail searchFlightAvail;
 
-    public TravelHomePage(WebDriver driver) {
+    public HomePage(WebDriver driver) {
 
         this.driver=driver;
 
@@ -24,7 +24,7 @@ public class TravelHomePage {
     public void goTo()
     {
 
-        driver.get("https://www.orbitz.com");
+        driver.get("https://www.steelcase.com/");
     }
 
     public NavigationBar getNavigationBar()

@@ -6,7 +6,7 @@
 
   <groupId>Demopiyush</groupId>
   <artifactId>DesignPatterns</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <name>DesignPatterns</name>
 
   <properties>

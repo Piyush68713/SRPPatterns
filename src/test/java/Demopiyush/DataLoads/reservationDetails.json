@@ -1,0 +1,14 @@
+[
+  {
+    "origin":"SFO",
+    "destination":"JFK",
+    "destination2":"GRR"
+  },
+  {
+    "origin":"GRR",
+    "destination":"HYD",
+    "destination2":"SFO"
+    
+  }
+  
+  ]

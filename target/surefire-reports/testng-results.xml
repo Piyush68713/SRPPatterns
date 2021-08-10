@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-10T07:20:21Z" name="Surefire suite" finished-at="2021-08-10T07:20:41Z" duration-ms="19896">
+    <groups>
+    </groups>
+    <test started-at="2021-08-10T07:20:21Z" name="Surefire test" finished-at="2021-08-10T07:20:41Z" duration-ms="19896">
+      <class name="Demopiyush.DemoTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demopiyush.DemoTest@3578436e]" started-at="2021-08-10T07:20:21Z" name="setup" finished-at="2021-08-10T07:20:22Z" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="flightTest(java.util.HashMap)[pri:0, instance:Demopiyush.DemoTest@3578436e]" started-at="2021-08-10T07:20:22Z" name="flightTest" data-provider="getData" finished-at="2021-08-10T07:20:39Z" duration-ms="16808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=JFK, destination2=GRR, origin=SFO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method signature="flightTest(java.util.HashMap)[pri:0, instance:Demopiyush.DemoTest@3578436e]" started-at="2021-08-10T07:20:39Z" name="flightTest" data-provider="getData" finished-at="2021-08-10T07:20:41Z" duration-ms="1390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, destination2=SFO, origin=GRR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demopiyush.DemoTest@3578436e]" started-at="2021-08-10T07:20:41Z" name="tearDown" finished-at="2021-08-10T07:20:41Z" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Demopiyush.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -6,7 +6,7 @@
 
   <groupId>Demopiyush</groupId>
   <artifactId>DesignPatterns</artifactId>
-  <version>1.95-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <name>DesignPatterns</name>
 
   <properties>
@@ -42,13 +42,24 @@
       <version>2.8.0</version>
     </dependency>
 
-
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>3.141.59</version>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>a0agijexpivfd-artifactory-primary-0-releases</name>
+      <url>https://sgt.jfrog.io/artifactory/default-maven-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>a0agijexpivfd-artifactory-primary-0-snapshots</name>
+      <url>https://sgt.jfrog.io/artifactory/default-maven-local</url>
+    </snapshotRepository>
+  </distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>

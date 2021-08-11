@@ -1,13 +1,13 @@
 [
   {
-    "origin":"MAA",
-    "destination":"HYD",
-    "destination2":"DEL"
+    "origin":"GRR",
+    "destination":"ORD",
+    "destination2":"JFK"
   },
   {
-    "origin":"DEL",
-    "destination":"HYD",
-    "destination2":"MAA"
+    "origin":"JFK",
+    "destination":"ORD",
+    "destination2":"GRR"
     
   }
   

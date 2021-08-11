@@ -28,7 +28,7 @@ WebDriver driver;
     {
 
         travelHomePage.goTo();
-        System.out.println("Hello Steelcase Team Today 08/10");
+        System.out.println("Hello Steelcase Team Today 08/11111111");
         //System.out.println(travelHomePage.getFooterNav().getFlightAttribute());
         //System.out.println(travelHomePage.getNavigationBar().getFlightAttribute());
         //System.out.println(travelHomePage.getFooterNav().getLinkCount());

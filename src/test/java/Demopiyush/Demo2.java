@@ -21,7 +21,7 @@ public class Demo2 extends BaseTest {
     public void SteelCase() {
         travelHomePage.goTo();
         driver.manage().window().maximize();
-        System.out.println("Hello Steelcase Team");
+        System.out.println("Hello Steelcase Team22222222");
         System.out.println("Hello Steelcase Team");
         driver.findElement(By.xpath("//header/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]")).click();
         driver.findElement(By.xpath("//header/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]")).sendKeys("Desk");

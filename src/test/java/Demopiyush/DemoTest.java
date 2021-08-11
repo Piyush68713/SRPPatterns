@@ -1,4 +1,4 @@
-/*package Demopiyush;
+package Demopiyush;
 import org.openqa.selenium.WebDriver;
 import Demopiyush.PageObjects.HomePage;
 import org.testng.annotations.AfterTest;
@@ -28,7 +28,7 @@ WebDriver driver;
     {
 
         travelHomePage.goTo();
-        System.out.println("Hello Steelcase Team");
+        System.out.println("Hello Steelcase Team Today 08/10");
         //System.out.println(travelHomePage.getFooterNav().getFlightAttribute());
         //System.out.println(travelHomePage.getNavigationBar().getFlightAttribute());
         //System.out.println(travelHomePage.getFooterNav().getLinkCount());
@@ -56,4 +56,4 @@ WebDriver driver;
     }
 
 
-}*/
+}

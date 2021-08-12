@@ -24,7 +24,7 @@ public class HomePage {
     public void goTo()
     {
 
-        driver.get("https://www.steelcase.com/");
+        driver.get("https://www.farmers.com/");
 
     }
 

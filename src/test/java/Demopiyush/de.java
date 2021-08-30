@@ -23,7 +23,7 @@ public class de extends BaseTest {
         HomePage.goTo();
         String abc = driver.getTitle();
         driver.manage().window().maximize();
-        System.out.println("Hello Team The title is " + abc);
+        System.out.println("Hello Team The title from get title  is " + abc);
         driver.findElement(By.xpath("//div[2]/a[name() = 'a']")).click();
     }
 

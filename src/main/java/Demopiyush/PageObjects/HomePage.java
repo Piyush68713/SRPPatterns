@@ -17,43 +17,38 @@ public class HomePage {
 
     public HomePage(WebDriver driver) {
 
-        this.driver=driver;
+        this.driver = driver;
 
     }
 
-    public void goTo()
-    {
+    public void goTo() {
 
-        driver.get("https://www.farmers.com/");
+        driver.get("https://www.spectrumhealth.org/");
 
     }
 
-    public NavigationBar getNavigationBar()
-    {
+    public NavigationBar getNavigationBar() {
 
-        return new NavigationBar(driver,footerNavSectionElement);
+        return new NavigationBar(driver, footerNavSectionElement);
     }
 
-    public FooterNav getFooterNav()
-    {
-        return new FooterNav(driver,sectionElement);
+    public FooterNav getFooterNav() {
+        return new FooterNav(driver, sectionElement);
     }
 
-    public void setBookingStrategy(String strategyType)
-    {
+    public void setBookingStrategy(String strategyType) {
         StrategyFactor strategyFactor = new StrategyFactor(driver);
         searchFlightAvail = strategyFactor.createStrategy(strategyType);
 
-        this.searchFlightAvail  = searchFlightAvail;
+        this.searchFlightAvail = searchFlightAvail;
     }
 
-    public void checkAvail(HashMap<String,String> reservationDetails)
-    {
+    public void checkAvail(HashMap<String, String> reservationDetails) {
 
         searchFlightAvail.checkAvail(reservationDetails);
     }
-    public String getTitle()
-    {
+
+    public String getTitle() {
         System.out.println("Hello");
         return driver.getTitle();
     }

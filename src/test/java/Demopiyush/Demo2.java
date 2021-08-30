@@ -11,12 +11,13 @@ import org.testng.annotations.Test;
 public class Demo2 extends BaseTest {
     WebDriver driver;
     HomePage travelHomePage;
+
     @BeforeTest
-    public void setup()
-    {
-        driver =initializeDriver();
+    public void setup() {
+        driver = initializeDriver();
         travelHomePage = new HomePage(driver);
     }
+
     @Test
     public void SteelCase() {
         travelHomePage.goTo();
@@ -30,6 +31,7 @@ public class Demo2 extends BaseTest {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,550)", "");
     }
+
     @AfterTest
     public void tearDown() throws InterruptedException {
         Thread.sleep(6000);
